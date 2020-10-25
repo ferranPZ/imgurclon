@@ -6,8 +6,8 @@ const Image = require('./models/Image')
 const Vote = require('./models/Vote')
 
 //Post relationships
-User.hasMany(Post)
-Post.belongsTo(User)
+User.hasMany(Post, { as: 'publicacion', foreignKey: 'autorId' })
+Post.belongsTo(User, { as: 'autor' })
 
 //Commentary relationships
 User.hasMany(Commentary)

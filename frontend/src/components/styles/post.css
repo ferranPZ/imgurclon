@@ -1,0 +1,11 @@
+.bg-own {
+  background-color: #474a51 !important;
+}
+
+.title {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.card-img-top {
+  min-height: 17vw;
+}

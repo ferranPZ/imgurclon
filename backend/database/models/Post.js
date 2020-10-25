@@ -12,7 +12,7 @@ Post.init({
 }, {
     timestamps: true,
     sequelize,
-    modelName: 'post'
+    modelName: 'posts'
 });
 
 module.exports = Post

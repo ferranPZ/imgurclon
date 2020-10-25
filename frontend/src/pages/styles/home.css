@@ -1,4 +1,6 @@
 * {
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -11,8 +13,12 @@ h1 {
   letter-spacing: 13px;
 }
 .margin {
-  height: 75vh;
-  background-color: cornflowerblue;
+  height: 100%;
+  background-color: #2e3035;
+}
+
+.container {
+  margin-top: -3vw;
 }
 
 .parallax {
@@ -45,7 +51,7 @@ h1 {
 .hero {
   background-color: #150143;
   position: relative;
-  height: 60vh;
+  height: 55vh;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -67,16 +73,17 @@ h1 {
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #003298;
+  border: solid 1px #980086;
   -webkit-transform-origin: top left;
   transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   -webkit-animation: cube 12s ease-in forwards infinite;
   animation: cube 12s ease-in forwards infinite;
+  animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: #0051f4;
+  border-color: #7200f4;
 }
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
@@ -179,7 +186,7 @@ h1 {
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #00c531;
+  background-color: #1bb76e;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
   color: #ffffff;

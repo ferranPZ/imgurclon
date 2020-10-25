@@ -1,6 +1,6 @@
 //Dependences
 const express = require('express')
-
+var cors = require('cors');
 
 //Assets
 const { api } = require('./config')
@@ -13,6 +13,8 @@ const app = express()
 //middlewares
 app.use(express.json())
 app.use(express.urlencoded())
+app.use(cors())
+app.use('/static', express.static('public'));
 
 routes(app)
 

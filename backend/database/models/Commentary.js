@@ -10,7 +10,7 @@ Commentary.init({
 }, {
     timestamps: true,
     sequelize,
-    modelName: 'commentary'
+    modelName: 'commentaries'
 });
 
 module.exports = Commentary

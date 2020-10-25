@@ -9,7 +9,7 @@ Vote.init({
 }, {
     timestamps: false,
     sequelize,
-    modelName: 'vote'
+    modelName: 'votes'
 });
 
 module.exports = Vote
